@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="sprout dev" />
+    <meta name="description" content="An example wiki project, using the three basic technologies. The HTML tags, CSS style and JS scripts." />
+    <meta name="keywords" content="The Last of Us, wiki" />
+    <meta name="color-schema" content="normal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/ico/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome/css/solid.min.css">
+    <link rel="stylesheet" href="/assets/fontawesome/css/brands.min.css">
+    <link rel="stylesheet" href="/css/styles.min.css">
+    <title>The Last of Us Wiki | DEV Project</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <img src="/assets/img/fireflies_logo.svg" alt="logo" />
+      </div>
+      <aside class="left-menu">
+        <div class="menu-icon-container">
+          <a href="#">
+            <i class="fa-solid fa-gamepad"></i>
+          </a>
+          <span>GAMES</span>
+        </div>
+        <div class="menu-icon-container">
+          <a href="#">
+            <i class="fa-solid fa-tv"></i>
+          </a>
+          <span>TV</span>
+        </div>
+        <div class="menu-icon-container">
+          <a href="#">
+            <i class="fa-solid fa-clapperboard"></i>
+          </a>
+          <span>MOVIES</span>
+        </div>
+      </aside>
+      <div class="banner">
+        <a href="/">
+          <span>THE LAST OF US</span>
+        </a>
+      </div>
+      <div class="menu-bars-container">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul class="menu">
+          <li class="menu-item">
+            <a href="#">ABOUT</a>
+          </li>
+          <li class="menu-item">
+            <a href="/contactus.html">CONTACT US</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <h1 class="page-title">Contact us for news!!</h1>
+      <form id="form" class="form" autocomplete="off">
+        <h2 class="main-title">Contact us</h2>
+        <div class="form-field">
+          <label for="fullname" class="form-label">Fullname: (*)</label>
+          <input type="text" name="fullname" id="fullname" class="form-input form-input--text" required />
+        </div>
+        <div class="form-field">
+          <label for="email" class="form-label">Email: (*)</label>
+          <input type="email" name="email" id="email" class="form-input form-input--text" required />
+        </div>
+        <div class="form-field">
+          <label for="subject" class="form-label">Subject: (*)</label>
+          <input type="text" name="subject" id="subject" class="form-input form-input--text" required />
+        </div>
+        <div class="form-field">
+          <label for="content" class="form-label">Content: (*)</label>
+          <textarea name="content" id="content" class="form-input form-input--textarea" required></textarea>
+        </div>
+        <div class="form-buttons">
+          <input type="submit" value="send" class="button" />
+        </div>
+      </form>
+    </main>
+    <footer class="footer">
+      <section class="footer-links">
+        <div class="link-container">
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="link-container">
+          <a href="#">Term of service</a>
+        </div>
+      </section>
+      <section class="social-media-section">
+        <div class="media-icon-container">
+          <a href="#">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </div>
+        <div class="media-icon-container">
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+        <div class="media-icon-container">
+          <a href="#">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+        </div>
+      </section>
+      <address class="address">
+        <p>THE LAST OF US is a trademark of Naughty Dog, PlayStation Studios and Sony Computer Entertainment</p>
+        <p id="footprint">Sprout DEV</p>
+      </address>
+    </footer>
+    <script src="/js/script.min.js"></script>
+  </body>
+</html>
+
+<!-- All the images and text related to the videogame and television serie "The Last of Us", used in this example project, are property of Naughty Dog and PlayStation Studios and Sony Computer Entertainment -->
