@@ -6,8 +6,8 @@ Documentation for [Lumi](https://github.com/C0C0B01/Lumi), my discord mod for An
     <header class="header">
       <aside class="left-menu">
         <div class="menu-icon-container">
-          <a href="/lumi-docs/index.html">
+          <a href="#">
             <i class="fa-solid fa-gamepad"></i>
           </a>
-          <span>Docs</span>
+          <span>[Docs]("/lumi-docs/index.html")</span>
         </div>
